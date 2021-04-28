@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+.transactionList {
+  display: flex;
+  width: 800px;
+  flex-wrap: wrap;
+}
+
+.transactionList-entry {
+  display: flex;
+  width: 100%;
+}
+
+.transactionList-entry--item {
+  width: 33%;
+}
+
+.transactionList-header {
+  width: 33%;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.addTransactionContainer {
+  margin-top: 2rem;
+}
+
+.transactionListContainer {
+  margin-bottom: 2rem;
+}
